@@ -4,7 +4,8 @@ const ownerSchema = mongoose.Schema({
     fullName: {
         type: String,
         minLength: 3,
-        trim: true
+        trim: true,
+        required: true
     },
     email: String,
     password: String,
